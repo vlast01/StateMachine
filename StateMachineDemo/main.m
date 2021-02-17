@@ -6,11 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CustomStateMachine.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        CustomStateMachine *machine = [[CustomStateMachine alloc] init];
     }
     return 0;
 }

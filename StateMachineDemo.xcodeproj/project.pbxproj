@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		FB5A49C925D9C13C002F1163 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A49C825D9C13C002F1163 /* main.m */; };
+		FB5A49D225D9C151002F1163 /* StateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A49D125D9C151002F1163 /* StateMachine.m */; };
+		FB5A49D625D9C174002F1163 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A49D525D9C174002F1163 /* State.m */; };
+		FB5A49DE25D9C1DB002F1163 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A49DD25D9C1DB002F1163 /* Event.m */; };
+		FB5A49E325D9CF9A002F1163 /* Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A49E225D9CF9A002F1163 /* Transition.m */; };
+		FB5A49E725D9D12B002F1163 /* CustomStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A49E625D9D12B002F1163 /* CustomStateMachine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		FB5A49C525D9C13C002F1163 /* StateMachineDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StateMachineDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5A49C825D9C13C002F1163 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB5A49D025D9C151002F1163 /* StateMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateMachine.h; sourceTree = "<group>"; };
+		FB5A49D125D9C151002F1163 /* StateMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateMachine.m; sourceTree = "<group>"; };
+		FB5A49D425D9C174002F1163 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		FB5A49D525D9C174002F1163 /* State.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		FB5A49DC25D9C1DB002F1163 /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		FB5A49DD25D9C1DB002F1163 /* Event.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		FB5A49E125D9CF9A002F1163 /* Transition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transition.h; sourceTree = "<group>"; };
+		FB5A49E225D9CF9A002F1163 /* Transition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transition.m; sourceTree = "<group>"; };
+		FB5A49E525D9D12B002F1163 /* CustomStateMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomStateMachine.h; sourceTree = "<group>"; };
+		FB5A49E625D9D12B002F1163 /* CustomStateMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomStateMachine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				FB5A49C825D9C13C002F1163 /* main.m */,
+				FB5A49E525D9D12B002F1163 /* CustomStateMachine.h */,
+				FB5A49E625D9D12B002F1163 /* CustomStateMachine.m */,
+				FB5A49E125D9CF9A002F1163 /* Transition.h */,
+				FB5A49E225D9CF9A002F1163 /* Transition.m */,
+				FB5A49D025D9C151002F1163 /* StateMachine.h */,
+				FB5A49D125D9C151002F1163 /* StateMachine.m */,
+				FB5A49D425D9C174002F1163 /* State.h */,
+				FB5A49D525D9C174002F1163 /* State.m */,
+				FB5A49DC25D9C1DB002F1163 /* Event.h */,
+				FB5A49DD25D9C1DB002F1163 /* Event.m */,
 			);
 			path = StateMachineDemo;
 			sourceTree = "<group>";
@@ -118,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5A49D625D9C174002F1163 /* State.m in Sources */,
 				FB5A49C925D9C13C002F1163 /* main.m in Sources */,
+				FB5A49E725D9D12B002F1163 /* CustomStateMachine.m in Sources */,
+				FB5A49E325D9CF9A002F1163 /* Transition.m in Sources */,
+				FB5A49DE25D9C1DB002F1163 /* Event.m in Sources */,
+				FB5A49D225D9C151002F1163 /* StateMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
